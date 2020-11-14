@@ -9,8 +9,10 @@ public class Operations {
      * @return the sum of x and y
      */
     public static int add(int x, int y) {
-        return x + y;
+        return (x + y);
     }
+
+
 
     /**
      * The subtraction function
@@ -19,7 +21,7 @@ public class Operations {
      * @return y taken from x
      */
     public static int subtract(int x, int y) {
-        return x - y;
+        return(x - y);
     }
 
 
@@ -30,6 +32,17 @@ public class Operations {
      * @return x times y
      */
     public static int multiply(int x, int y) {
-        return x * y;
+        return(x * y);
+
+    }
+
+    /**
+     * This is the divide function
+     * @param x
+     * @param y
+     * @returns x divided by y
+     */
+    public static double divide(double x, double y) {
+        return(x / y);
     }
 }
